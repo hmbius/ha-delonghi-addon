@@ -1,0 +1,14 @@
+name: "DeLonghi Coffee Controller"
+slug: delonghi
+version: "1.0.0"
+description: "Lokale Steuerung einer DeLonghi PrimaDonna Soul"
+startup: services
+boot: auto
+arch:
+  - amd64
+ports:
+  10280/tcp: 10280
+map:
+  - config:rw
+options: {}
+schema: {}
