@@ -8,6 +8,7 @@ RUN pip install --no-cache-dir requests pycryptodome
 
 COPY delonghi.py /app/delonghi.py
 COPY run.sh /app/run.sh
+COPY data/ /data/
 
 RUN chmod +x /app/run.sh
 
