@@ -19,8 +19,8 @@ import os
 APP_DIR = "/app"
 KEYS_PATH = "/data/keys.json"
 TOKEN_PATH = "/data/token.txt"
-TOKEN_PATH = os.path.join(APP_DIR, "token.txt")
-KEYS_PATH = os.path.join(APP_DIR, "keys.json")
+# TOKEN_PATH = os.path.join(APP_DIR, "token.txt")
+# KEYS_PATH = os.path.join(APP_DIR, "keys.json")
 
 # ------------------------------
 # Server-Einstellungen
