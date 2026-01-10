@@ -8,8 +8,6 @@ RUN pip install --no-cache-dir requests pycryptodome
 
 COPY delonghi.py /app/delonghi.py
 COPY run.sh /app/run.sh
-COPY keys.json /data/keys.json
-COPY token.txt /data/token.txt
 
 RUN chmod +x /app/run.sh
 
